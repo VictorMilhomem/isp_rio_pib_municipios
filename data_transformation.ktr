@@ -1119,17 +1119,6 @@
         <precision>0</precision>
         <trim_type>both</trim_type>
       </field>
-      <field>
-        <name>registro_ocorrencias</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1854,11 +1843,6 @@
       <field>
         <name>pol_civis_mortos_serv</name>
         <value>pol_civis_mortos_serv</value>
-        <norm>quantidade</norm>
-      </field>
-      <field>
-        <name>registro_ocorrencias</name>
-        <value>registro_ocorrencias</value>
         <norm>quantidade</norm>
       </field>
     </fields>
