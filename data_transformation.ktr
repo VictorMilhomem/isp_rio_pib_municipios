@@ -1913,6 +1913,10 @@
         <rename/>
       </field>
       <field>
+        <name>ano</name>
+        <rename/>
+      </field>
+      <field>
         <name>pib</name>
         <rename/>
       </field>
