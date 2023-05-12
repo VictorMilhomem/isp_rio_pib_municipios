@@ -430,40 +430,55 @@
     <created_date>2023/05/09 16:53:14.800</created_date>
     <modified_user>-</modified_user>
     <modified_date>2023/05/09 16:53:14.800</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <order>
     <hop>
-      <from>CSV file input</from>
+      <from>Crimes_isp</from>
       <to>Split fields</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Text file input</from>
-      <to>Merge join</to>
+      <from>Select values</from>
+      <to>dim_municipios</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Split fields</from>
-      <to>Merge join</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Merge join</from>
+      <from>Filter rows</from>
       <to>Select values</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select values</from>
-      <to>isp_rio_pib_municipios</to>
+      <from>Split fields</from>
+      <to>Row normaliser</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Row normaliser</from>
+      <to>Add value fields changing sequence</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add value fields changing sequence</from>
+      <to>Select values 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 2</from>
+      <to>dim_crimes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>ibge_municipios_info</from>
+      <to>Filter rows</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>CSV file input</name>
+    <name>Crimes_isp</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -490,641 +505,630 @@
     <fields>
       <field>
         <name>fmun_cod</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>fmun</name>
         <type>String</type>
         <format/>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>29</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>mes_ano</name>
         <type>String</type>
         <format/>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>7</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>regiao</name>
         <type>String</type>
         <format/>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>18</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>hom_doloso</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>lesao_corp_morte</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>latrocinio</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>cvli</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>hom_por_interv_policial</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>letalidade_violenta</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>tentat_hom</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>lesao_corp_dolosa</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>estupro</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>hom_culposo</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>lesao_corp_culposa</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_transeunte</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_celular</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_em_coletivo</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_rua</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_veiculo</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_carga</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_comercio</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_residencia</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_banco</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_cx_eletronico</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_conducao_saque</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_apos_saque</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>roubo_bicicleta</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>outros_roubos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>total_roubos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>furto_veiculos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>furto_transeunte</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>furto_coletivo</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>furto_celular</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>furto_bicicleta</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>outros_furtos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>total_furtos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>sequestro</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>extorsao</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>sequestro_relampago</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>estelionato</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>apreensao_drogas</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>posse_drogas</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>trafico_drogas</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>apreensao_drogas_sem_autor</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>recuperacao_veiculos</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>apf</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>aaapai</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>cmp</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>cmba</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>ameaca</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>pessoas_desaparecidas</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>encontro_cadaver</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>encontro_ossada</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>pol_militares_mortos_serv</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>pol_civis_mortos_serv</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>registro_ocorrencias</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>R$</currency>
+        <currency/>
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>fase</name>
-        <type>String</type>
-        <format>#</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
     </fields>
     <attributes/>
@@ -1202,7 +1206,7 @@
     </GUI>
   </step>
   <step>
-    <name>Text file input</name>
+    <name>ibge_municipios_info</name>
     <type>TextFileInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1253,8 +1257,8 @@
     <fields>
       <field>
         <name>ano</name>
-        <type>String</type>
-        <format/>
+        <type>Integer</type>
+        <format>#</format>
         <currency/>
         <decimal/>
         <group/>
@@ -1380,7 +1384,7 @@
         <group/>
         <nullif/>
         <ifnull/>
-        <position>953</position>
+        <position>954</position>
         <length>18</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
@@ -1421,337 +1425,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>160</xloc>
-      <yloc>224</yloc>
+      <xloc>80</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Merge join</name>
-    <type>MergeJoin</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <join_type>INNER</join_type>
-    <step1>Text file input</step1>
-    <step2>Split fields</step2>
-    <keys_1>
-      <key>ano</key>
-      <key>cod_municipio</key>
-    </keys_1>
-    <keys_2>
-      <key>ano</key>
-      <key>fmun_cod</key>
-    </keys_2>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>320</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>cod_grande_reg</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nome_grande_reg</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cod_unidade_fed</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nome_unidade_fed</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cod_municipio</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nome_municipio</name>
-        <rename/>
-      </field>
-      <field>
-        <name>pib</name>
-        <rename/>
-      </field>
-      <field>
-        <name>pib_per_capita</name>
-        <rename/>
-      </field>
-      <field>
-        <name>ano_1</name>
-        <rename>ano</rename>
-      </field>
-      <field>
-        <name>mes</name>
-        <rename/>
-      </field>
-      <field>
-        <name>regiao</name>
-        <rename/>
-      </field>
-      <field>
-        <name>hom_doloso</name>
-        <rename/>
-      </field>
-      <field>
-        <name>lesao_corp_morte</name>
-        <rename/>
-      </field>
-      <field>
-        <name>latrocinio</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cvli</name>
-        <rename/>
-      </field>
-      <field>
-        <name>hom_por_interv_policial</name>
-        <rename/>
-      </field>
-      <field>
-        <name>letalidade_violenta</name>
-        <rename/>
-      </field>
-      <field>
-        <name>tentat_hom</name>
-        <rename/>
-      </field>
-      <field>
-        <name>lesao_corp_dolosa</name>
-        <rename/>
-      </field>
-      <field>
-        <name>estupro</name>
-        <rename/>
-      </field>
-      <field>
-        <name>hom_culposo</name>
-        <rename/>
-      </field>
-      <field>
-        <name>lesao_corp_culposa</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_transeunte</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_celular</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_em_coletivo</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_rua</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_veiculo</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_carga</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_comercio</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_residencia</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_banco</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_cx_eletronico</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_conducao_saque</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_apos_saque</name>
-        <rename/>
-      </field>
-      <field>
-        <name>roubo_bicicleta</name>
-        <rename/>
-      </field>
-      <field>
-        <name>outros_roubos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>total_roubos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>furto_veiculos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>furto_transeunte</name>
-        <rename/>
-      </field>
-      <field>
-        <name>furto_coletivo</name>
-        <rename/>
-      </field>
-      <field>
-        <name>furto_celular</name>
-        <rename/>
-      </field>
-      <field>
-        <name>furto_bicicleta</name>
-        <rename/>
-      </field>
-      <field>
-        <name>outros_furtos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>total_furtos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>sequestro</name>
-        <rename/>
-      </field>
-      <field>
-        <name>extorsao</name>
-        <rename/>
-      </field>
-      <field>
-        <name>sequestro_relampago</name>
-        <rename/>
-      </field>
-      <field>
-        <name>estelionato</name>
-        <rename/>
-      </field>
-      <field>
-        <name>apreensao_drogas</name>
-        <rename/>
-      </field>
-      <field>
-        <name>posse_drogas</name>
-        <rename/>
-      </field>
-      <field>
-        <name>trafico_drogas</name>
-        <rename/>
-      </field>
-      <field>
-        <name>apreensao_drogas_sem_autor</name>
-        <rename/>
-      </field>
-      <field>
-        <name>recuperacao_veiculos</name>
-        <rename/>
-      </field>
-      <field>
-        <name>apf</name>
-        <rename/>
-      </field>
-      <field>
-        <name>aaapai</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cmp</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cmba</name>
-        <rename/>
-      </field>
-      <field>
-        <name>ameaca</name>
-        <rename/>
-      </field>
-      <field>
-        <name>pessoas_desaparecidas</name>
-        <rename/>
-      </field>
-      <field>
-        <name>encontro_cadaver</name>
-        <rename/>
-      </field>
-      <field>
-        <name>encontro_ossada</name>
-        <rename/>
-      </field>
-      <field>
-        <name>pol_militares_mortos_serv</name>
-        <rename/>
-      </field>
-      <field>
-        <name>pol_civis_mortos_serv</name>
-        <rename/>
-      </field>
-      <field>
-        <name>registro_ocorrencias</name>
-        <rename/>
-      </field>
-      <field>
-        <name>fase</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>isp_rio_pib_municipios</name>
+    <name>dim_municipios</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1775,7 +1455,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:/Users/victo/OneDrive/Documentos/DataScienceProjects/ispRio/isp_rio_pib_municipios</name>
+      <name>C:/Users/victo/OneDrive/Documentos/DataScienceProjects/ispRio/dim_municipios</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1793,6 +1473,18 @@
     </file>
     <fields>
       <field>
+        <name>cod_municipio</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>both</trim_type>
+        <length>7</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>cod_grande_reg</name>
         <type>String</type>
         <format/>
@@ -1802,18 +1494,6 @@
         <nullif/>
         <trim_type>both</trim_type>
         <length>1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>nome_grande_reg</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>both</trim_type>
-        <length>12</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1829,6 +1509,18 @@
         <precision>-1</precision>
       </field>
       <field>
+        <name>nome_grande_reg</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>both</trim_type>
+        <length>12</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>nome_unidade_fed</name>
         <type>String</type>
         <format/>
@@ -1838,18 +1530,6 @@
         <nullif/>
         <trim_type>both</trim_type>
         <length>19</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>cod_municipio</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>both</trim_type>
-        <length>7</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1867,7 +1547,7 @@
       <field>
         <name>pib</name>
         <type>Number</type>
-        <format>#.#</format>
+        <format>#.###</format>
         <currency/>
         <decimal/>
         <group/>
@@ -1879,13 +1559,613 @@
       <field>
         <name>pib_per_capita</name>
         <type>Number</type>
-        <format>#.#</format>
+        <format>#.##</format>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>both</trim_type>
         <length>18</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Row normaliser</name>
+    <type>Normaliser</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <typefield>tipo_crime</typefield>
+    <fields>
+      <field>
+        <name>hom_doloso</name>
+        <value>hom_doloso</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>lesao_corp_morte</name>
+        <value>lesao_corp_morte</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>latrocinio</name>
+        <value>latrocinio</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>cvli</name>
+        <value>cvli</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>hom_por_interv_policial</name>
+        <value>hom_por_interv_policial</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>letalidade_violenta</name>
+        <value>letalidade_violenta</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>tentat_hom</name>
+        <value>tentat_hom</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>lesao_corp_dolosa</name>
+        <value>lesao_corp_dolosa</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>estupro</name>
+        <value>estupro</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>hom_culposo</name>
+        <value>hom_culposo</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>lesao_corp_culposa</name>
+        <value>lesao_corp_culposa</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_transeunte</name>
+        <value>roubo_transeunte</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_celular</name>
+        <value>roubo_celular</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_em_coletivo</name>
+        <value>roubo_em_coletivo</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_rua</name>
+        <value>roubo_rua</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_veiculo</name>
+        <value>roubo_veiculo</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_carga</name>
+        <value>roubo_carga</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_comercio</name>
+        <value>roubo_comercio</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_residencia</name>
+        <value>roubo_residencia</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_banco</name>
+        <value>roubo_banco</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_cx_eletronico</name>
+        <value>roubo_cx_eletronico</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_conducao_saque</name>
+        <value>roubo_conducao_saque</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_apos_saque</name>
+        <value>roubo_apos_saque</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>roubo_bicicleta</name>
+        <value>roubo_bicicleta</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>outros_roubos</name>
+        <value>outros_roubos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>total_roubos</name>
+        <value>total_roubos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>furto_veiculos</name>
+        <value>furto_veiculos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>furto_transeunte</name>
+        <value>furto_transeunte</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>furto_coletivo</name>
+        <value>furto_coletivo</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>furto_celular</name>
+        <value>furto_celular</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>furto_bicicleta</name>
+        <value>furto_bicicleta</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>outros_furtos</name>
+        <value>outros_furtos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>total_furtos</name>
+        <value>total_furtos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>sequestro</name>
+        <value>sequestro</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>extorsao</name>
+        <value>extorsao</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>sequestro_relampago</name>
+        <value>sequestro_relampago</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>estelionato</name>
+        <value>estelionato</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>apreensao_drogas</name>
+        <value>apreensao_drogas</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>posse_drogas</name>
+        <value>posse_drogas</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>trafico_drogas</name>
+        <value>trafico_drogas</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>apreensao_drogas_sem_autor</name>
+        <value>apreensao_drogas_sem_autor</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>recuperacao_veiculos</name>
+        <value>recuperacao_veiculos</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>apf</name>
+        <value>apf</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>aaapai</name>
+        <value>aaapai</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>cmp</name>
+        <value>cmp</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>cmba</name>
+        <value>cmba</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>ameaca</name>
+        <value>ameaca</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>pessoas_desaparecidas</name>
+        <value>pessoas_desaparecidas</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>encontro_cadaver</name>
+        <value>encontro_cadaver</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>encontro_ossada</name>
+        <value>encontro_ossada</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>pol_militares_mortos_serv</name>
+        <value>pol_militares_mortos_serv</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>pol_civis_mortos_serv</name>
+        <value>pol_civis_mortos_serv</value>
+        <norm>quantidade</norm>
+      </field>
+      <field>
+        <name>registro_ocorrencias</name>
+        <value>registro_ocorrencias</value>
+        <norm>quantidade</norm>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>cod_municipio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>cod_grande_reg</name>
+        <rename/>
+      </field>
+      <field>
+        <name>cod_unidade_fed</name>
+        <rename/>
+      </field>
+      <field>
+        <name>nome_grande_reg</name>
+        <rename/>
+      </field>
+      <field>
+        <name>nome_unidade_fed</name>
+        <rename/>
+      </field>
+      <field>
+        <name>nome_municipio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>pib</name>
+        <rename/>
+      </field>
+      <field>
+        <name>pib_per_capita</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>368</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Select values</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>ano</leftvalue>
+            <function>&gt;=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>2014</text>
+              <length>4</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>#</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>nome_unidade_fed</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>String</type>
+              <text>Rio de Janeiro</text>
+              <length>19</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask/>
+            </value>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Add value fields changing sequence</name>
+    <type>FieldsChangeSequence</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <start>1</start>
+    <increment>1</increment>
+    <resultfieldName>cod_crimes</resultfieldName>
+    <fields>
+      <field>
+        <name>fmun</name>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>592</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>fmun_cod</name>
+        <rename>cod_municipio</rename>
+      </field>
+      <field>
+        <name>cod_crimes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>tipo_crime</name>
+        <rename/>
+      </field>
+      <field>
+        <name>ano</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>regiao</name>
+        <rename/>
+      </field>
+      <field>
+        <name>quantidade</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>736</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>dim_crimes</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>C:/Users/victo/OneDrive/Documentos/DataScienceProjects/ispRio/dim_crimes</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery/>
+    </file>
+    <fields>
+      <field>
+        <name>cod_municipio</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal>,</decimal>
+        <group>.</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>cod_crimes</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal>,</decimal>
+        <group>.</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>10</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>tipo_crime</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>26</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1925,652 +2205,16 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>hom_doloso</name>
+        <name>quantidade</name>
         <type>Integer</type>
         <format>#</format>
         <currency/>
-        <decimal/>
-        <group/>
+        <decimal>,</decimal>
+        <group>.</group>
         <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>lesao_corp_morte</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>latrocinio</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>cvli</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>hom_por_interv_policial</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>letalidade_violenta</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>tentat_hom</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>lesao_corp_dolosa</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>estupro</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>hom_culposo</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>lesao_corp_culposa</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_transeunte</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_celular</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_em_coletivo</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_rua</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_veiculo</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_carga</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_comercio</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_residencia</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_banco</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_cx_eletronico</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_conducao_saque</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_apos_saque</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>roubo_bicicleta</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>outros_roubos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>total_roubos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>furto_veiculos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>furto_transeunte</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>furto_coletivo</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>furto_celular</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>furto_bicicleta</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>outros_furtos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>total_furtos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sequestro</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>extorsao</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sequestro_relampago</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>estelionato</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>apreensao_drogas</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>posse_drogas</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>trafico_drogas</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>apreensao_drogas_sem_autor</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>recuperacao_veiculos</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>apf</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>aaapai</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>cmp</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>cmba</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>ameaca</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>pessoas_desaparecidas</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>encontro_cadaver</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>encontro_ossada</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>pol_militares_mortos_serv</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>pol_civis_mortos_serv</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>registro_ocorrencias</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>fase</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
+        <precision>0</precision>
       </field>
     </fields>
     <attributes/>
@@ -2582,8 +2226,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>640</xloc>
-      <yloc>176</yloc>
+      <xloc>864</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

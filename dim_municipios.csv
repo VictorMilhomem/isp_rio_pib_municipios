@@ -1,0 +1,645 @@
+cod_municipio,cod_grande_reg,cod_unidade_fed,nome_grande_reg,nome_unidade_fed,nome_municipio,pib,pib_per_capita
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,7756628.497       ,41941.32          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,142621.052        ,13106.14          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,2063933.747       ,17064.64          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,271556.832        ,22860.24          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,3983706.738       ,130875.09         
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,1130031.915       ,39147.51          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,1897184.912       ,19646.10          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,5397423.493       ,30036.25          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,6592295.518       ,13751.54          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,656729.350        ,25137.00          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,606058.350        ,16883.73          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,17208138.933      ,84153.14          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,958313.271        ,17122.83          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,283110.632        ,19065.97          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,911496.461        ,61951.77          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,254202.230        ,30831.08          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,58004933.013      ,120680.69         
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,855426.983        ,43220.85          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,271856.754        ,21613.67          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,355383.495        ,19662.69          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,3598888.933       ,91309.91          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,272137.566        ,12366.52          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,316892.971        ,15115.33          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,197560.831        ,17804.69          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,28862818.723      ,32858.33          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,222111.195        ,16372.64          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,764536.809        ,13744.23          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,361776.871        ,14269.03          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,5053066.112       ,22243.74          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,7930533.651       ,67566.36          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,279815.854        ,19312.30          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,1024006.622       ,44865.34          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,2198576.663       ,22315.82          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,3276893.333       ,109244.34         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1105726.247       ,11153.07          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,126636.940        ,17250.64          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,21419169.559      ,93279.32          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,126244.881        ,23465.59          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,3289174.993       ,14078.32          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,3011897.584       ,75282.38          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,9757407.892       ,68180.70          
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,243980.940        ,13490.04          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2013252.202       ,11809.80          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,644124.688        ,25942.43          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,390587.738        ,14615.62          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,240134.522        ,15966.39          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2379969.285       ,15034.65          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,24642144.196      ,49734.89          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,4081020.609       ,22124.15          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,14716568.092      ,18254.76          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,691579.490        ,14079.39          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,807971.149        ,19164.86          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,3671117.546       ,91858.31          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,415503.226        ,15528.19          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,11070793.020      ,37148.19          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,294414.514        ,12427.27          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,1563985.787       ,56709.30          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,271678.998        ,14851.53          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,3097650.331       ,172378.98         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,264161.734        ,19691.52          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,3925114.257       ,27504.32          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,4574472.121       ,205492.66         
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,7757843.180       ,62404.22          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1491126.503       ,26030.42          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,297150.595        ,16723.92          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,177113.549        ,20040.00          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,14336159.287      ,112731.36         
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,300270151.610     ,46526.95          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,159233.209        ,15530.40          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,924937.989        ,22500.19          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,1002625.105       ,24251.39          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,676773.638        ,17946.79          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,15527349.794      ,15047.30          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,8844406.293       ,258057.55         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,7253960.063       ,15745.14          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,168768.799        ,23521.78          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,343377.225        ,16499.00          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,1779711.462       ,18671.31          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,150513.200        ,16662.59          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,707013.887        ,40152.99          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,1919564.917       ,23723.23          
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,2151936.401       ,26214.35          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,342721.712        ,16063.07          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,343089.123        ,22722.64          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,567216.225        ,17648.30          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,4450034.578       ,25950.45          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,161488.216        ,15605.74          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,3429417.889       ,43411.45          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,1625456.356       ,22131.61          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,128294.671        ,12873.24          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,790340.880        ,22405.13          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,10501937.104      ,40044.14          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,7600989.489       ,40371.53          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,156723.066        ,14217.82          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,2251793.444       ,18327.38          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,294170.546        ,24575.65          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,2282739.492       ,73477.95          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,801488.624        ,27545.40          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,1951268.242       ,20144.20          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,4962638.828       ,27583.24          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,7386583.335       ,15352.67          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,678454.395        ,25818.34          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,668437.034        ,18586.28          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,10639147.964      ,51039.08          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,990737.885        ,17600.60          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,285792.149        ,19263.42          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,536423.349        ,35742.49          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,333014.849        ,40365.44          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,34158330.051      ,70579.44          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,1030744.806       ,52165.84          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,309845.691        ,24673.17          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,393923.258        ,21644.14          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,1976829.147       ,49046.75          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,303081.013        ,13675.09          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,342589.656        ,16265.00          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,202596.817        ,18217.50          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,35294440.412      ,39983.32          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,248001.243        ,18200.59          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,824794.581        ,14594.26          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,394992.975        ,15250.11          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,4312980.354       ,18833.40          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,7401614.223       ,62123.79          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,323089.317        ,22176.49          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,496244.939        ,21785.19          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,2374806.328       ,23982.86          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,3571717.074       ,118112.34         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1323637.229       ,13254.53          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,125892.059        ,17250.21          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,19671568.653      ,83841.52          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,133435.305        ,24719.40          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,3573399.762       ,15218.33          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,3699336.855       ,90716.71          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,9576205.202       ,65344.73          
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,262980.043        ,14530.09          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2074803.819       ,12151.05          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,650015.845        ,26166.00          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,452755.187        ,16979.38          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,223271.460        ,14871.88          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2515632.184       ,15890.65          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,25496900.610      ,51333.01          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,4478152.849       ,24234.26          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,15888288.776      ,19676.09          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,857687.993        ,17319.68          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,863598.299        ,20389.04          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,2222637.279       ,54909.76          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,484175.363        ,18054.12          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,11497015.656      ,38562.21          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,325219.178        ,13614.90          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,1745384.850       ,62697.93          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,315756.664        ,17484.73          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2804596.587       ,153541.91         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,243645.265        ,17990.49          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,4900734.313       ,34120.07          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,2412851.768       ,106293.03         
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,6383741.898       ,50982.65          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1483971.762       ,25756.69          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,325951.474        ,18285.17          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,182358.603        ,20508.17          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,8716420.961       ,66045.50          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,320186614.790     ,49437.22          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,156609.537        ,15316.34          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1031526.293       ,25050.42          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,910097.841        ,22041.07          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,716978.691        ,19016.49          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,16639685.098      ,16029.27          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,7310408.035       ,211387.33         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9085882.105       ,19725.12          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,178967.940        ,24835.96          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,397747.512        ,19016.42          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,1958301.865       ,20205.34          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,161637.831        ,17852.64          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,726387.234        ,41257.94          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,2065630.382       ,25080.81          
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,2294078.526       ,27675.51          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,378595.394        ,17768.59          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,349439.237        ,23100.37          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,556261.757        ,17154.81          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5008883.560       ,28943.05          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,175821.649        ,16987.60          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,3582746.802       ,45200.18          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,1902221.857       ,25801.59          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,146665.598        ,14099.75          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,911754.278        ,25732.51          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,10612959.694      ,40358.06          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,9294025.008       ,48531.75          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,167714.032        ,15028.14          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,2476383.710       ,19820.58          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,315905.364        ,26198.82          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,1472824.312       ,46499.47          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,664032.006        ,22837.02          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,1984591.723       ,20427.70          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,4792723.201       ,26607.61          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,7941396.808       ,16071.11          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,678484.974        ,25676.85          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,710392.753        ,19716.15          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,7207339.910       ,33950.60          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,1042234.627       ,18413.06          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,333998.422        ,22530.92          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,302993.812        ,19812.58          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,349232.953        ,42305.63          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,17274331.822      ,35457.36          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,865419.608        ,43869.80          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,330960.694        ,26396.61          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,466417.457        ,25456.69          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,1140072.349       ,27693.84          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,332182.999        ,14886.09          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,345983.494        ,16352.37          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,233632.846        ,20963.02          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,41539673.406      ,46836.03          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,259199.894        ,19170.17          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,888163.457        ,15553.16          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,426113.175        ,16122.33          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,4350443.239       ,18850.55          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,7861566.037       ,65049.57          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,330552.477        ,22567.93          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,502289.397        ,22092.25          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,2519720.139       ,25322.80          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,3604719.175       ,118284.47         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1293083.951       ,12858.57          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,132345.781        ,18236.98          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,17571148.197      ,73374.85          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,153751.034        ,28383.06          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,3684859.853       ,15592.74          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,3852889.755       ,92713.38          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,5854082.235       ,39059.50          
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,292162.301        ,16131.76          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2287034.631       ,13372.91          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,681749.611        ,27429.07          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,473870.902        ,17810.01          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,250927.595        ,16744.13          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2541271.827       ,16051.59          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,23019308.800      ,46234.37          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,4802421.132       ,25944.73          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,16068661.734      ,20150.43          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,959698.852        ,19166.76          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,898723.631        ,21029.17          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,1252001.064       ,30555.24          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,497391.747        ,18463.63          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,12693830.212      ,42574.17          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,382103.434        ,15870.72          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,1981324.647       ,70539.90          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,317557.737        ,17490.51          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2555768.184       ,137762.41         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,248237.215        ,18164.58          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,4668405.352       ,32301.71          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,995114.741        ,43031.99          
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,6332463.377       ,50224.16          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1543307.595       ,26625.74          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,334234.923        ,18724.65          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,256668.225        ,28700.46          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,4888905.393       ,35783.13          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,328440481.384     ,50538.35          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,168831.584        ,16555.36          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1077168.633       ,26115.71          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,956780.276        ,23200.30          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,729989.322        ,19365.17          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,16903509.590      ,16190.20          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,3890154.695       ,111516.88         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9405813.855       ,20423.40          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,182163.720        ,25174.64          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,452906.229        ,21549.52          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,2036819.627       ,20684.67          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,188591.871        ,20781.47          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,827312.035        ,46995.68          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,2188281.365       ,26128.73          
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,2214093.049       ,26463.16          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,403120.631        ,18944.53          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,370863.447        ,24474.59          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,561761.372        ,17177.67          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5239125.415       ,30008.68          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,189257.184        ,18283.95          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,3638040.706       ,45917.46          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,2010736.052       ,27173.21          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,156568.763        ,14911.31          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,961891.907        ,27002.75          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,10435922.787      ,39581.14          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,10106294.594      ,51928.61          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,171697.200        ,15205.21          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,2515122.678       ,19844.43          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,325725.878        ,26824.17          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,1713498.726       ,53115.27          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,724387.915        ,24719.76          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,2014882.724       ,20673.95          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,4884834.255       ,27220.99          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,8189053.454       ,16517.41          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,654386.845        ,24632.49          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,728093.303        ,20186.68          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,8600620.437       ,39812.16          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,966054.566        ,16934.07          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,317612.551        ,21000.57          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,368298.906        ,23657.43          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,361375.079        ,43351.14          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,21110490.159      ,43057.33          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,681590.488        ,34603.77          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,320019.910        ,25562.74          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,416980.195        ,22830.72          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,1371160.532       ,32647.46          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,321641.065        ,14319.98          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,463596.537        ,21816.31          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,194383.824        ,17403.87          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,40904755.775      ,45908.97          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,248267.996        ,18287.27          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,921105.469        ,15902.79          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,462238.099        ,17160.61          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,4186706.421       ,18015.55          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,7568805.244       ,61852.31          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,327527.679        ,22245.99          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,503243.702        ,22175.19          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,2705960.357       ,27060.42          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,4363453.489       ,142118.15         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1615655.699       ,15959.14          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,133935.375        ,18558.32          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,15378420.457      ,62990.43          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,160915.363        ,29612.69          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,3856683.644       ,16244.14          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,3601508.707       ,84911.20          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,11456251.358      ,74873.54          
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,299499.255        ,16525.92          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2313400.387       ,13506.54          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,654040.985        ,26297.33          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,490112.579        ,18459.29          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,246255.678        ,16460.94          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2644230.763       ,16700.86          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,27489575.854      ,55086.24          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,5015568.844       ,27055.46          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,16836918.719      ,21081.80          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,893119.942        ,17704.12          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,931266.050        ,21696.71          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,1591755.358       ,38398.11          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,534907.955        ,19818.01          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,12817938.750      ,42979.32          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,409247.290        ,16853.94          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,1858360.242       ,65847.93          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,334101.664        ,18308.95          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2858922.456       ,151836.13         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,255483.951        ,18533.47          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,3704985.374       ,25483.78          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,1445640.218       ,61425.12          
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,7735583.193       ,60947.06          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1600885.881       ,27472.64          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,359020.519        ,19958.89          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,243837.672        ,27141.33          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,5602588.592       ,39701.73          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,337675255.222     ,51788.57          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,173484.399        ,17055.09          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1049780.432       ,25411.03          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,939797.406        ,22815.60          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,669862.142        ,17773.41          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,17228897.160      ,16411.19          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,4693339.588       ,133432.07         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9196061.347       ,19971.42          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,159812.174        ,22984.64          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,452015.094        ,21408.31          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,2159190.958       ,21612.23          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,181137.818        ,19918.39          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,710789.765        ,40010.68          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,2093438.093       ,24578.08          
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,4212583.347       ,49902.66          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,448747.605        ,21114.55          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,361782.161        ,23815.56          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,515331.617        ,15630.32          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5090373.627       ,28912.72          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,180213.777        ,17408.60          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,3716628.918       ,46807.75          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,2200071.806       ,29635.79          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,183085.363        ,17277.09          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,918385.619        ,25676.18          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,11311117.791      ,42651.11          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,8942167.711       ,44620.04          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,181569.435        ,15636.36          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,2676428.181       ,20518.62          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,315391.678        ,25290.01          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,2361778.642       ,71052.31          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,1291857.297       ,42924.55          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,2061848.195       ,20624.88          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,5565508.177       ,30251.27          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,7956747.727       ,15643.98          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,676540.982        ,24809.89          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,761617.530        ,20592.61          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,10972209.354      ,49307.10          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,1033178.845       ,17643.08          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,336837.112        ,21737.04          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,521794.259        ,32532.84          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,390891.812        ,45750.45          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,32338282.839      ,64236.67          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,765207.708        ,37924.75          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,279270.693        ,21773.79          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,456037.682        ,24315.53          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,2187857.485       ,50533.72          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,355204.280        ,15400.81          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,508059.728        ,23299.08          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,210016.996        ,18335.69          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,41581756.769      ,45475.21          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,264305.131        ,18975.17          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,983893.492        ,16504.68          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,489370.242        ,17627.34          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,4486978.785       ,18797.96          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,8061178.754       ,64021.81          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,306435.651        ,20276.30          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,542764.545        ,23347.72          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,2793921.812       ,27224.31          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,4981040.334       ,157942.74         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1445447.637       ,13903.88          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,137863.874        ,18665.57          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,15435161.554      ,61340.46          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,153568.067        ,27550.78          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,3902084.867       ,16014.66          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,3596423.046       ,82318.73          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,26982734.145      ,171005.17         
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,324099.692        ,17445.35          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2261961.388       ,12879.86          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,589781.818        ,23135.05          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,529860.449        ,19483.75          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,280723.398        ,18319.20          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2803407.793       ,17276.30          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,40376960.847      ,78894.23          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,5243797.804       ,27586.74          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,16869468.561      ,20600.79          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,976701.468        ,18849.78          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,996588.224        ,22626.59          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,2619606.550       ,61449.84          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,545970.919        ,19725.81          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,12761258.606      ,41746.16          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,526632.922        ,21115.15          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,1886911.581       ,65068.16          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,350146.924        ,18694.44          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2894247.421       ,149334.27         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,265051.054        ,18711.69          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,3627917.045       ,24305.21          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,2471196.191       ,101921.81         
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,8471496.220       ,64998.36          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1663589.190       ,27812.71          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,401561.993        ,21763.70          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,205350.752        ,22267.49          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,8591343.945       ,58849.26          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,363403233.285     ,54329.08          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,181395.229        ,17413.38          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1112973.300       ,26274.78          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,1023335.472       ,24249.08          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,695120.541        ,17996.18          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,18554620.914      ,17217.08          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,7204709.017       ,199366.57         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9319207.964       ,19748.77          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,204869.223        ,28717.30          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,532224.315        ,24560.42          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,2289650.432       ,22262.90          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,203376.190        ,21807.44          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,746393.509        ,40999.37          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,3104960.313       ,35402.72          
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,4486968.834       ,51727.16          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,465722.753        ,21389.92          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,448028.828        ,28762.20          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,550442.153        ,16251.61          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5165476.229       ,28556.53          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,195808.103        ,18453.31          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,3988535.427       ,48967.32          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,2576172.289       ,33824.46          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,187062.626        ,17177.47          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,983904.859        ,26807.94          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,13407989.252      ,49294.44          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,9828659.745       ,48230.54          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,208718.343        ,17749.67          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,3686098.082       ,27840.62          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,354392.279        ,28189.01          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,2628092.880       ,77593.53          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,2557038.622       ,84254.46          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,2115454.549       ,21075.72          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,5486252.346       ,29749.97          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,8061960.340       ,15779.73          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,697899.377        ,25428.09          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,729616.760        ,19668.34          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,11521218.184      ,50860.69          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,1108135.418       ,18802.03          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,353666.895        ,22809.86          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,453285.329        ,27807.21          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,424146.015        ,49543.98          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,29136988.284      ,57407.36          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,730607.284        ,36218.88          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,294026.608        ,22929.63          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,470439.088        ,24897.54          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,2062389.463       ,46677.29          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,376627.031        ,16214.35          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,398690.510        ,18183.46          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,214615.599        ,18675.22          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,45373762.379      ,49340.97          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,251671.180        ,17973.95          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,1061590.542       ,17542.02          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,537136.091        ,18973.37          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,4933377.154       ,20505.16          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,7950438.328       ,59769.19          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,331482.201        ,21798.00          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,552490.833        ,23779.41          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,3103971.784       ,30070.25          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,4474510.665       ,140685.76         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1437700.320       ,13722.70          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,151482.754        ,20595.89          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,15102698.977      ,58840.46          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,169810.037        ,30328.64          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,4256200.817       ,17367.22          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,2473487.677       ,55623.99          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,37524886.359      ,232774.55         
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,350313.562        ,18819.90          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2319746.850       ,13172.67          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,614767.494        ,24072.66          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,570589.974        ,20997.64          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,297784.616        ,19441.45          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2911666.654       ,17919.60          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,46549868.947      ,90637.30          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,5359696.839       ,28115.56          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,17423436.213      ,21218.90          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,986925.045        ,18885.99          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,1005738.731       ,22710.60          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,2760233.629       ,63946.11          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,557462.495        ,20074.99          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,13662993.191      ,44622.45          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,716239.572        ,28471.92          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,2231564.915       ,76222.46          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,348627.435        ,18497.77          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2424736.215       ,123189.36         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,277990.523        ,19437.18          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,3877124.788       ,25792.65          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,3822544.650       ,154758.89         
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,8565370.475       ,65214.75          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1555794.291       ,25843.33          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,390419.782        ,21070.74          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,218301.064        ,23513.69          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,7745325.126       ,51404.52          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,354932610.767     ,52825.98          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,189001.852        ,18166.27          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1158143.226       ,27263.90          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,1013580.959       ,24015.66          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,751081.136        ,19423.34          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,18368096.889      ,16931.63          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,7968880.438       ,220732.38         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9746518.856       ,20631.66          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,179374.120        ,25013.82          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,544438.314        ,24979.96          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,2437961.670       ,23335.14          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,203161.322        ,21712.23          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,753960.402        ,41362.76          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,10711480.831      ,120124.27         
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,4159295.554       ,50530.85          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,494821.275        ,22725.33          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,440264.804        ,28180.55          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,579269.983        ,16883.91          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5229225.969       ,28638.54          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,206651.061        ,19447.68          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,4365978.600       ,53371.21          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,2051661.640       ,26811.05          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,203015.621        ,18455.97          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,1090968.998       ,29568.76          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,11017492.592      ,40355.34          
+3300100,3,33,Sudeste     ,Rio de Janeiro     ,Angra dos Reis                          ,10728194.450      ,51816.01          
+3300159,3,33,Sudeste     ,Rio de Janeiro     ,Aperibé                                 ,223201.673        ,18754.87          
+3300209,3,33,Sudeste     ,Rio de Janeiro     ,Araruama                                ,3528684.296       ,26276.01          
+3300225,3,33,Sudeste     ,Rio de Janeiro     ,Areal                                   ,389602.834        ,30752.45          
+3300233,3,33,Sudeste     ,Rio de Janeiro     ,Armação dos Búzios                      ,2084042.336       ,60447.32          
+3300258,3,33,Sudeste     ,Rio de Janeiro     ,Arraial do Cabo                         ,1832830.773       ,59910.14          
+3300308,3,33,Sudeste     ,Rio de Janeiro     ,Barra do Piraí                          ,2468776.097       ,24500.58          
+3300407,3,33,Sudeste     ,Rio de Janeiro     ,Barra Mansa                             ,5904171.445       ,31943.28          
+3300456,3,33,Sudeste     ,Rio de Janeiro     ,Belford Roxo                            ,8763589.499       ,17079.09          
+3300506,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jardim                              ,867101.918        ,31398.53          
+3300605,3,33,Sudeste     ,Rio de Janeiro     ,Bom Jesus do Itabapoana                 ,869560.638        ,23373.40          
+3300704,3,33,Sudeste     ,Rio de Janeiro     ,Cabo Frio                               ,9337319.704       ,40530.43          
+3300803,3,33,Sudeste     ,Rio de Janeiro     ,Cachoeiras de Macacu                    ,1215378.123       ,20494.38          
+3300902,3,33,Sudeste     ,Rio de Janeiro     ,Cambuci                                 ,405063.660        ,26109.56          
+3300936,3,33,Sudeste     ,Rio de Janeiro     ,Carapebus                               ,439224.195        ,26481.62          
+3300951,3,33,Sudeste     ,Rio de Janeiro     ,Comendador Levy Gasparian               ,487366.951        ,56829.17          
+3301009,3,33,Sudeste     ,Rio de Janeiro     ,Campos dos Goytacazes                   ,23841836.920      ,46641.88          
+3301108,3,33,Sudeste     ,Rio de Janeiro     ,Cantagalo                               ,758090.396        ,37588.77          
+3301157,3,33,Sudeste     ,Rio de Janeiro     ,Cardoso Moreira                         ,353564.760        ,27577.00          
+3301207,3,33,Sudeste     ,Rio de Janeiro     ,Carmo                                   ,581507.510        ,30557.41          
+3301306,3,33,Sudeste     ,Rio de Janeiro     ,Casimiro de Abreu                       ,1582461.428       ,35133.80          
+3301405,3,33,Sudeste     ,Rio de Janeiro     ,Conceição de Macabu                     ,420653.596        ,17978.19          
+3301504,3,33,Sudeste     ,Rio de Janeiro     ,Cordeiro                                ,414414.173        ,18801.97          
+3301603,3,33,Sudeste     ,Rio de Janeiro     ,Duas Barras                             ,239118.801        ,20742.44          
+3301702,3,33,Sudeste     ,Rio de Janeiro     ,Duque de Caxias                         ,47153673.080      ,50997.67          
+3301801,3,33,Sudeste     ,Rio de Janeiro     ,Engenheiro Paulo de Frontin             ,272664.302        ,19377.75          
+3301850,3,33,Sudeste     ,Rio de Janeiro     ,Guapimirim                              ,1175109.986       ,19142.34          
+3301876,3,33,Sudeste     ,Rio de Janeiro     ,Iguaba Grande                           ,565931.261        ,19625.18          
+3301900,3,33,Sudeste     ,Rio de Janeiro     ,Itaboraí                                ,5417933.739       ,22338.03          
+3302007,3,33,Sudeste     ,Rio de Janeiro     ,Itaguaí                                 ,8836528.049       ,65543.64          
+3302056,3,33,Sudeste     ,Rio de Janeiro     ,Italva                                  ,390518.886        ,25525.78          
+3302106,3,33,Sudeste     ,Rio de Janeiro     ,Itaocara                                ,632251.082        ,27226.38          
+3302205,3,33,Sudeste     ,Rio de Janeiro     ,Itaperuna                               ,3317024.198       ,31955.92          
+3302254,3,33,Sudeste     ,Rio de Janeiro     ,Itatiaia                                ,4588797.357       ,143113.69         
+3302270,3,33,Sudeste     ,Rio de Janeiro     ,Japeri                                  ,1459397.747       ,13826.86          
+3302304,3,33,Sudeste     ,Rio de Janeiro     ,Laje do Muriaé                          ,166507.362        ,22728.28          
+3302403,3,33,Sudeste     ,Rio de Janeiro     ,Macaé                                   ,15328853.230      ,58618.72          
+3302452,3,33,Sudeste     ,Rio de Janeiro     ,Macuco                                  ,198810.893        ,35356.73          
+3302502,3,33,Sudeste     ,Rio de Janeiro     ,Magé                                    ,4442670.599       ,18027.90          
+3302601,3,33,Sudeste     ,Rio de Janeiro     ,Mangaratiba                             ,2650144.861       ,58605.59          
+3302700,3,33,Sudeste     ,Rio de Janeiro     ,Maricá                                  ,35618326.724      ,216519.52         
+3302809,3,33,Sudeste     ,Rio de Janeiro     ,Mendes                                  ,366228.261        ,19639.01          
+3302858,3,33,Sudeste     ,Rio de Janeiro     ,Mesquita                                ,2530787.569       ,14333.14          
+3302908,3,33,Sudeste     ,Rio de Janeiro     ,Miguel Pereira                          ,595789.398        ,23290.31          
+3303005,3,33,Sudeste     ,Rio de Janeiro     ,Miracema                                ,635712.046        ,23411.36          
+3303104,3,33,Sudeste     ,Rio de Janeiro     ,Natividade                              ,322465.151        ,21061.01          
+3303203,3,33,Sudeste     ,Rio de Janeiro     ,Nilópolis                               ,2984860.873       ,18346.58          
+3303302,3,33,Sudeste     ,Rio de Janeiro     ,Niterói                                 ,40949495.052      ,79464.67          
+3303401,3,33,Sudeste     ,Rio de Janeiro     ,Nova Friburgo                           ,5681581.074       ,29721.91          
+3303500,3,33,Sudeste     ,Rio de Janeiro     ,Nova Iguaçu                             ,17202970.350      ,20895.09          
+3303609,3,33,Sudeste     ,Rio de Janeiro     ,Paracambi                               ,1001698.752       ,19013.70          
+3303708,3,33,Sudeste     ,Rio de Janeiro     ,Paraíba do Sul                          ,1299253.246       ,29184.90          
+3303807,3,33,Sudeste     ,Rio de Janeiro     ,Paraty                                  ,1732244.531       ,39657.61          
+3303856,3,33,Sudeste     ,Rio de Janeiro     ,Paty do Alferes                         ,639924.804        ,22970.95          
+3303906,3,33,Sudeste     ,Rio de Janeiro     ,Petrópolis                              ,15390936.234      ,50185.98          
+3303955,3,33,Sudeste     ,Rio de Janeiro     ,Pinheiral                               ,777227.862        ,30642.95          
+3304003,3,33,Sudeste     ,Rio de Janeiro     ,Piraí                                   ,2612985.427       ,88440.87          
+3304102,3,33,Sudeste     ,Rio de Janeiro     ,Porciúncula                             ,415342.446        ,21906.25          
+3304110,3,33,Sudeste     ,Rio de Janeiro     ,Porto Real                              ,2433184.728       ,121817.60         
+3304128,3,33,Sudeste     ,Rio de Janeiro     ,Quatis                                  ,308910.418        ,21400.10          
+3304144,3,33,Sudeste     ,Rio de Janeiro     ,Queimados                               ,3850873.661       ,25446.02          
+3304151,3,33,Sudeste     ,Rio de Janeiro     ,Quissamã                                ,3047888.231       ,121304.16         
+3304201,3,33,Sudeste     ,Rio de Janeiro     ,Resende                                 ,8120384.094       ,61373.00          
+3304300,3,33,Sudeste     ,Rio de Janeiro     ,Rio Bonito                              ,1729891.159       ,28558.78          
+3304409,3,33,Sudeste     ,Rio de Janeiro     ,Rio Claro                               ,469772.127        ,25249.78          
+3304508,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Flores                          ,275803.569        ,29516.65          
+3304524,3,33,Sudeste     ,Rio de Janeiro     ,Rio das Ostras                          ,6341894.358       ,40864.56          
+3304557,3,33,Sudeste     ,Rio de Janeiro     ,Rio de Janeiro                          ,331279902.027     ,49094.40          
+3304607,3,33,Sudeste     ,Rio de Janeiro     ,Santa Maria Madalena                    ,212323.206        ,20431.41          
+3304706,3,33,Sudeste     ,Rio de Janeiro     ,Santo Antônio de Pádua                  ,1176972.579       ,27632.36          
+3304755,3,33,Sudeste     ,Rio de Janeiro     ,São Francisco de Itabapoana             ,1245839.782       ,29515.28          
+3304805,3,33,Sudeste     ,Rio de Janeiro     ,São Fidélis                             ,802787.352        ,20738.50          
+3304904,3,33,Sudeste     ,Rio de Janeiro     ,São Gonçalo                             ,19002883.194      ,17406.10          
+3305000,3,33,Sudeste     ,Rio de Janeiro     ,São João da Barra                       ,6462867.623       ,177439.19         
+3305109,3,33,Sudeste     ,Rio de Janeiro     ,São João de Meriti                      ,9100465.774       ,19243.71          
+3305133,3,33,Sudeste     ,Rio de Janeiro     ,São José de Ubá                         ,168874.435        ,23435.25          
+3305158,3,33,Sudeste     ,Rio de Janeiro     ,São José do Vale do Rio Preto           ,707232.808        ,32270.16          
+3305208,3,33,Sudeste     ,Rio de Janeiro     ,São Pedro da Aldeia                     ,2591358.479       ,24435.48          
+3305307,3,33,Sudeste     ,Rio de Janeiro     ,São Sebastião do Alto                   ,230749.967        ,24581.86          
+3305406,3,33,Sudeste     ,Rio de Janeiro     ,Sapucaia                                ,835833.364        ,45801.60          
+3305505,3,33,Sudeste     ,Rio de Janeiro     ,Saquarema                               ,15156885.514      ,167325.94         
+3305554,3,33,Sudeste     ,Rio de Janeiro     ,Seropédica                              ,4631957.108       ,55744.92          
+3305604,3,33,Sudeste     ,Rio de Janeiro     ,Silva Jardim                            ,559967.400        ,25717.25          
+3305703,3,33,Sudeste     ,Rio de Janeiro     ,Sumidouro                               ,611189.904        ,39011.29          
+3305752,3,33,Sudeste     ,Rio de Janeiro     ,Tanguá                                  ,620898.748        ,17939.87          
+3305802,3,33,Sudeste     ,Rio de Janeiro     ,Teresópolis                             ,5766904.693       ,31301.05          
+3305901,3,33,Sudeste     ,Rio de Janeiro     ,Trajano de Moraes                       ,230750.794        ,21687.10          
+3306008,3,33,Sudeste     ,Rio de Janeiro     ,Três Rios                               ,5347737.551       ,65103.57          
+3306107,3,33,Sudeste     ,Rio de Janeiro     ,Valença                                 ,2249764.739       ,29267.52          
+3306156,3,33,Sudeste     ,Rio de Janeiro     ,Varre-Sai                               ,247750.143        ,22307.77          
+3306206,3,33,Sudeste     ,Rio de Janeiro     ,Vassouras                               ,1282391.607       ,34581.66          
+3306305,3,33,Sudeste     ,Rio de Janeiro     ,Volta Redonda                           ,11630416.892      ,42448.64          
