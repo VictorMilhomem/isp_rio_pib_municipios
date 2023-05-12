@@ -1534,6 +1534,18 @@
         <precision>-1</precision>
       </field>
       <field>
+        <name>ano</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>4</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>pib</name>
         <type>Number</type>
         <format>#.###</format>
